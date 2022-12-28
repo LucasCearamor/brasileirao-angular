@@ -3,23 +3,23 @@
     <thead>
       <tr class="text-center">
         <th></th>
-        <th scope="col"></th>
-        <th scope="col"></th>
-        <th scope="col"></th>
-        <th scope="col">Pontos</th>
-        <th scope="col">V-E-D</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>Pontos</th>
+        <th>V-E-D</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let d of dados.data.standings">
-        <td class="box-color {{ color(d.stats[10].displayValue) }}" scope="col"></td>
-        <td class="text-center" scope="col">{{d.stats[10].displayValue}}°</td>
+        <td class="box-color {{ color(d.stats[10].displayValue) }}"></td>
+        <td class="text-center">{{d.stats[10].displayValue}}°</td>
         <td class="text-right">
           <img src="{{d.team.logos[0].href}}" class="escudo">
         </td>
-        <td scope="col">{{d.team.name}}</td>
-        <td class="text-center" scope="col"><b>{{d.stats[2].value}}</b></td>
-        <td class="text-center" scope="col">{{d.stats[12].displayValue}}</td>
+        <td>{{d.team.name}}</td>
+        <td class="text-center"><b>{{d.stats[2].value}}</b></td>
+        <td class="text-center">{{d.stats[12].displayValue}}</td>
       </tr>
     </tbody>
   </table>
