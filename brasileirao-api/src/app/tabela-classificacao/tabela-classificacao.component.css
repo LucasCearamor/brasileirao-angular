@@ -1,24 +1,50 @@
-.libertadores{
+.libertadores {
   background-color: rgb(0, 254, 170);
 }
 
-.pre-libertadores{
+.pre-libertadores {
   background-color: rgb(254, 161, 0);
 }
 
-.sul-americana{
+.sul-americana {
   background-color: rgb(59, 254, 0);
 }
 
-.nda{
+.nda {
   background-color: rgb(186, 186, 186);
 }
 
-.rebaixamento{
+.rebaixamento {
   background-color: rgb(255, 0, 0);
 }
 
-.box-color{
-  width: 10px;
+.table-responsive {
+  margin: 0 15%;
+}
+
+.escudo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.box-color {
+  width: 3px;
   height: 20px;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.5rem 0 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+tr {
+  vertical-align: middle;
 }
